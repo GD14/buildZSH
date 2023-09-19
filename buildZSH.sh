@@ -15,7 +15,7 @@ cd autojump
 ./install.py
 
 #替换主题色
-cp -rf ./gianu.zsh-theme ~/.oh-my-zsh/themes/gianu.zsh-theme
+cp -f ./gianu.zsh-theme ~/.oh-my-zsh/themes/gianu.zsh-theme
 
 #替换zshrc文件
-cp -rf ./zshrc ~/.zshrc
+cp -f ./zshrc ~/.zshrc
