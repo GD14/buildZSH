@@ -1,7 +1,10 @@
 #!/bin/bash
 
 #安装oh-my-zsh
-rm -rf ~/.oh-my-zsh/
+userhome=$HOME
+
+rm -rf "$HOME/.oh-my-zsh/"
+
 wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh 
 
 #安装zsh-autosuggestions 
@@ -17,7 +20,7 @@ cd autojump
 rm -rf autojump
 
 #替换主题色
-cp -f ./gianu.zsh-theme ~/.oh-my-zsh/themes/gianu.zsh-theme
+cp -f gianu.zsh-theme  "$HOME/.oh-my-zsh/themes/gianu.zsh-theme"
 
 #替换zshrc文件
-cp -f ./zshrc ~/.zshrc
+cp -f zshrc "$HOME/.zshrc"
