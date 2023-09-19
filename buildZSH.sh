@@ -17,6 +17,8 @@ git clone https://gitee.com/Annihilater/zsh-syntax-highlighting.git ${ZSH_CUSTOM
 git clone https://github.com/joelthelion/autojump.git
 cd autojump
 ./install.py
+
+cd ..
 rm -rf autojump
 
 #替换主题色
